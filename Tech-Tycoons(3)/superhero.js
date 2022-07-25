@@ -121,8 +121,6 @@ function aside({name}){
 }
 
 
-Lib.renderItem(heroes, aside, '.display_names' )
-Lib.renderItem(heroes, card, '#Character');
 
 async function showHeroes(){
     try{
